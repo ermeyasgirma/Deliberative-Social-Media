@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/cstgroupprojectstorage",
+      "type": "storage.azure",
+      "connectionId": "Connection_Storage_2",
+      "secretStore": "LocalSecretsFile"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cst-group-projectdb/databases/CST-Group-Project_db",
+      "type": "mssql.azure",
+      "connectionId": "MyDbConnection",
+      "secretStore": "LocalSecretsFile"
+    },
+    "mssql2": {
+      "resourceId": null,
+      "type": "mssql.local",
+      "connectionId": "MyDatabaseContext",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}

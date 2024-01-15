@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cst-group-projectdbserver/databases/CST-Group-Project_db",
+      "type": "mssql.azure",
+      "connectionId": "MyDbConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/photovideostorage",
+      "type": "storage.azure",
+      "connectionId": "Connection_Storage_2",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

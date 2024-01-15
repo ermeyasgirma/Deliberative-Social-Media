@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "MyDbConnection"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "Connection_Storage_2"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "MyDatabaseContext"
+    }
+  }
+}
